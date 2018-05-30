@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    padding: 15px;
+    width: 100%;
+    background: goldenrod;
+    transition: all 0.3s;
+}
+.header.now-sticky {
+    padding: 7px 15px;
+}
+
+.content {
+    min-height: 1500px;
+    padding: 100px;
+    background: white;
+}
+.sidebar {
+    float: left;
+    width: 250px;
+    padding: 20px;
+    background: #ccc;
+}
+.box {
+    margin-top: 100px;
+    background: red;
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    min-height: 250px;
+    background: #1b1b1b;
+}
